@@ -1,4 +1,4 @@
-const ENDPOINT = 'http://www.omdbapi.com';
+const ENDPOINT = 'https://www.omdbapi.com';
 
 export const getMoviesData = async (searchValue) => {
   const url = `${ENDPOINT}/?s=${searchValue}&apikey=df192e69`;
