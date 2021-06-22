@@ -1,0 +1,17 @@
+.movies, .search {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.movies > .ui.card:first-child {
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .movies > .ui.card,
+  .movies > .ui.card img{
+    width: 100%;
+  }
+}
